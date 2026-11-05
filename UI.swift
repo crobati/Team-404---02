@@ -17,7 +17,7 @@ import SwiftUI
 struct MercyDronesApp: App {
     @StateObject private var store = PrototypeStore()
     @AppStorage("appearance") private var appearance: Appearance = .system
-
+    
     var body: some Scene {
         WindowGroup {
             RootTabView()
@@ -1228,7 +1228,7 @@ struct TeamView: View {
 
     private let crew = [
         CrewMember(name: "C. Reardon", role: "Incident commander", access: "full control", color: Theme.blue),
-        CrewMember(name: "J. Harper", role: "Pilot", access: "flight + payload", color: Theme.green),
+        CrewMember(name: "J. Harmer", role: "Pilot", access: "flight + payload", color: Theme.green),
         CrewMember(name: "Station 12 crew (6)", role: "Viewer", access: "map + alerts only", color: Theme.textSecondary)
     ]
 
